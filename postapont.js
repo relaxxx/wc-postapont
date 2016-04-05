@@ -110,11 +110,11 @@ jQuery(document).ready(function($){
 			};
 			ppapi.map = new google.maps.Map(document.getElementById('pp-map-canvas'), mapOptions);
 			ppapi.infoWindow = new google.maps.InfoWindow({});
-			ppapi.symbols['10_posta'] = new google.maps.MarkerImage('http://www.postapont.hu/static/img/mapsymbol-posta.png',
+			ppapi.symbols['10_posta'] = new google.maps.MarkerImage('https://www.postapont.hu/static/img/ppapi/mapsymbol-posta.png',
 					new google.maps.Size(25, 20), new google.maps.Point(0,0), new google.maps.Point(10, 19));
-			ppapi.symbols['20_molkut'] = new google.maps.MarkerImage('http://www.postapont.hu/static/img/mapsymbol-molkut.png',
+			ppapi.symbols['20_molkut'] = new google.maps.MarkerImage('https://www.postapont.hu/static/img/ppapi/mapsymbol-molkut.png',
 					new google.maps.Size(25, 20), new google.maps.Point(0,0), new google.maps.Point(10, 19));
-			ppapi.symbols['30_csomagautomata'] = new google.maps.MarkerImage('http://www.postapont.hu/static/img/mapsymbol-csomagautomata.png',
+			ppapi.symbols['30_csomagautomata'] = new google.maps.MarkerImage('https://www.postapont.hu/static/img/ppapi/mapsymbol-csomagautomata.png',
 					new google.maps.Size(20, 29), new google.maps.Point(0,0), new google.maps.Point(10, 19));
 	
 			var skipgroups = Array();
